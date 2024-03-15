@@ -67,6 +67,7 @@ The designs were created to the following widths:
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
   font-size: 0.9375rem; /* 15px */
 }
 
