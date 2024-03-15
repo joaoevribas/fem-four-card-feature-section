@@ -47,8 +47,8 @@ The designs were created to the following widths:
   --clr-primary-blue: hsl(212, 86%, 64%);
 
   --clr-neutral-very-dark-blue: hsl(234, 12%, 34%);
-  --clr-grayish-blue: hsl(229, 6%, 66%);
-  --clr-very-light-gray: hsl(0, 0%, 98%);
+  --clr-neutral-grayish-blue: hsl(229, 6%, 66%);
+  --clr-neutral-very-light-gray: hsl(0, 0%, 98%);
 
   --ff-base: "Poppins", sans-serif;
 }
@@ -68,7 +68,10 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
+  font-family: var(--ff-base);
   font-size: 0.9375rem; /* 15px */
+  background: var(--clr-neutral-very-light-gray);
+  color: var(--clr-neutral-very-dark-blue);
 }
 
 img,
@@ -95,4 +98,26 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  max-width: 57.5ch;
+}
+
+.heading__title {
+  font-size: 2.25rem;
+  font-weight: 200;
+  margin: 5rem 0 1rem;
+}
+
+.heading__text {
+  opacity: 50%;
 }
