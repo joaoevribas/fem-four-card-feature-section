@@ -22,5 +22,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/joaoevribas/fem-four-card-feature-section
+- Live Site URL: https://ribas-four-card-feature-section.netlify.app/
